@@ -6,8 +6,19 @@ body{
 
 .navigation{
     display: flex;
-    justify-content: space-evenly;
-    align-items: row;
+    justify-content: space-between;
+    flex-direction: row;
     float: right;
     list-style-type: none;
+
+}
+
+#home-logo{
+    object-fit: cover;
+}
+
+#hero-logo{
+    width: 1000px;
+    height: 1000px;
+    object-fit: cover;
 }
