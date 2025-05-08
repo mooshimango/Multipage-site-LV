@@ -1,5 +1,13 @@
+body{
+    background-color: #240115;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: antiquewhite;
+}
+
 .navigation{
     display: flex;
-    justify-content: right;
-    align-items: ;
+    justify-content: space-evenly;
+    align-items: row;
+    float: right;
+    list-style-type: none;
 }
