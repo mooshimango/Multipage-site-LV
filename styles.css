@@ -1,5 +1,5 @@
 body{
-    background-color: #240115;
+    background-color: #001011;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: antiquewhite;
 }
@@ -14,11 +14,18 @@ body{
 }
 
 #home-logo{
+    width: 1000px;
+    height: 200px;
     object-fit: cover;
+    padding: 70px;
+}
+section{
+    display: flex;
+    justify-content: center;
 }
 
 #hero-logo{
-    width: 1000px;
-    height: 1000px;
+    width: 500px;
+    height: 500px;
     object-fit: cover;
 }
